@@ -1,0 +1,304 @@
+body {
+    width: 100%;
+    min-width: 900px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    color: white;
+    background-color: #def7f5;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+.onfocus {
+    cursor: pointer;
+}
+
+
+
+
+
+/*menu*/
+header {
+    width: 100%;
+    display: flex;
+    background-color: darkturquoise;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid #def7f5;
+}
+.logo {
+    cursor: pointer;
+    padding-left: 25px;
+    width: 200px;
+    font-family: 'Baloo Bhaina', cursive;
+    margin: 0px auto 0px 0px;
+    text-shadow: 0px 0px 20px #def7f5;
+    font-size: 1.5em;
+}
+.menu {
+    padding: 0px;
+    list-style:none;
+    margin: 0px 0px 0px auto;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2em;
+}
+.menu li {
+    margin: 5px 10px;
+    font-family: 'Baloo Bhaina', cursive;
+}
+.menu li:last-child {
+    margin-right: 25px;
+}
+.menu a {
+    color: white;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/*main*/
+main{
+    padding-top: 69px;
+}
+.main {
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/terrain.png');
+    background-position: center bottom;
+    background-size: cover;
+    font-family: 'Baloo Bhaina', cursive;
+}
+.main p {
+    width: 100%;
+    height: 200px;
+    font-size: 7em;
+    margin: 0px;
+    text-shadow: 5px 1px 20px darkturquoise;
+    text-align: center;
+}
+section {
+}
+section h1 {
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px darkturquoise;
+    font-family: 'Baloo Bhaina', cursive;
+    border-bottom: 1px solid #def7f5;
+}
+
+
+
+
+
+
+
+/*screenshots*/
+.screenshots {
+    background-color: darkturquoise;
+}
+.screenshots a {
+    color: white;
+}
+.screenshots h1 {
+    text-shadow: 1px 1px 2px #38f0f3;
+}
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;;
+    align-items: center;
+}
+.imgs img {
+    width: 45%;
+    margin: 10px 2.5% 20px 2.5%;
+}
+
+
+
+
+
+
+
+
+
+
+/*description*/
+.description {
+    background-color: white;
+    height: 700px;
+    color: darkturquoise;
+}
+.description a {
+    color: darkturquoise;
+}
+.description h1 {
+    text-shadow: 1px 1px 2px #38f0f3;
+}
+.catch {
+    margin: 30px 0px 0px 0px;
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
+}
+.tabs {
+    margin-top: 10px;
+    width: 90%;
+    padding-left: 25px;
+}
+.tap {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: darkturquoise;
+    border: 2px solid darkturquoise;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+.tabs p{
+    margin: 0px 10px;
+    display: inline-block;
+}
+.items {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.benefits,
+.enemies,
+.player{
+    display: flex;
+    margin: 0px 25px;
+    width: 43%;
+    background-color: #def7f5;
+    border: 1px solid darkturquoise;   
+    flex-wrap: wrap;
+}
+.player {
+    margin: 0px auto;
+    width: 95%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.player img {
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.player p {
+    margin: 80px 30px 0px auto;
+}
+.crystal {
+    width: 49px;
+    height: 35px;
+    margin: 30px 20px;
+    background-image: url('../game/img/items.png');
+    background-position: -57px 0px;
+}
+.jelly {
+    width: 61px;
+    height: 45px;
+    margin-top: 30px;
+    background-image: url('../game/img/items.png');
+    background-position: -180px 0px;
+}
+.fly {
+    width: 73px;
+    height: 34px;
+    margin-top: 40px;
+    background-image: url('../game/img/fly.png');
+    background-position: 0px -34px;
+}
+.squere {
+    width: 60px;
+    height: 60px;
+    margin-top: 25px;
+    background-image: url('../game/img/items.png');
+    background-position: 0px -50px;
+}
+.orange-enemy {
+    width: 60px;
+    height: 100px;
+    background-image: url('../game/img/items.png');
+    background-position: -240px 0px;
+}
+.benefits p,
+.enemies p {
+    margin: 60px 30px 0px auto;
+}
+.points {
+    width: 100%;
+}
+.benefits span,
+.enemies span{
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    font-size: 2em;
+}
+.enemies span{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+/*demo*/
+.demo a {
+    color: white;
+}
+.video-box {
+    width: 90%;
+    max-width: 1032px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.video {
+    width: 100%;
+    margin: -80px 0px 20px -8px;
+}
+
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: #00998d;
+}
+footer p {
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.6em;
+    line-height: 30px;
+    color: #def7f5;
+}
