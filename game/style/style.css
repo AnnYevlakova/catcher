@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+
+
+/*main windows*/
+.result,
+.start-box,
+.sets,
+.game-rules{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    background-color: violet;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-rules {
+    width: 500px;
+    height: 300px;
+}
+
+.result p {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.game-box {
+    width: auto;
+}
+
+.score-box {
+    align-self: flex-start;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 800px;
+    opacity: 0;
+}
+.current-level {
+    width: 300px;
+    color: violet;
+    font-size: 1.5em;
+    margin-left: 100px;
+}
+
+
+
+
+
+/*main buttons*/
+.play-again,
+.start,
+.settings,
+.rules,
+.set,
+select,
+.close-rules,
+.back {
+    border: 2px solid darkturquoise;    
+    background-color: white;
+    color: darkturquoise;
+    width: 120px;
+    font-size: 1.3em;
+}
+.start {
+    margin-top: 40px;
+}
+
+.choose-level {
+    margin-top: 30px;
+}
+#color {
+    margin-bottom: 30px;
+}
+select {
+    font-size: 1em;
+    width: 120px;
+}
+
+
+
+/*rules*/
+.description {
+    width: 400px;
+    display: flex;
+}
+.tabs {
+    width: 160px;
+}
+.tap {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: darkturquoise;
+    border: 2px solid darkturquoise;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+
+
+
+
+.hover {
+    display: none;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game</title>
+        <link rel=stylesheet href="style/style.css">
+    </head>
+
+    
+    <body>
+        <div class="score-box">
+            <img id="heart" src="img/heart2.png" class='heart 2'>
+            <div class="score">score
+                <p  id="score">0</p>
+            </div>
+            <input class="play-again" id="play-again" type="button" value="reset"/>
+            <input class="back" id="back" type="button" value="go back"/>
+            <div class="current-level" id="current-level"></div>
+        </div>
+        
+        <div class="start-box" id="start-box">
+            <input type="button" id="settings" class="settings" value="settings">
+            <input type="button" id="rules" class="rules" value="description">
+            <input type="button" id="start" class="start" value="play"/>
+        </div>
+        
+        <div class="game-box"></div>
+        <div class="result hover" id="result">
+            <p id="result-game"></p>
+            <div class="current-score" id="current-score"></div>
+            <input class="play-again" id="play-again" type="button" value="play again"/>
+            <input class="back" id="back" type="button" value="go back"/>
+        </div>
+        <div class="sets hover" id="sets">
+            <div class="choose-level">LEVEL</div>
+            <select name="level" id="level">
+                <option value="0" selected>level 0</option>
+                <option value="1">level 1</option>
+                <option value="2">level 2</option>
+                <option value="3">SUPER LEVEL</option>
+            </select>
+            <div class="choose-color">PLAYER COLOR</div>
+            <select name="color" id="color">
+                <option value="blue" selected>blue</option>
+                <option value="pinc">pinc</option>
+                <option value="green">green</option>
+            </select>
+            <input type="button" id="set" class="set" value="set">
+        </div>
+        <div class="game-rules" id="game-rules">
+            <div class="description">
+                <div class="tabs">
+                    <span class="tap">&larr;</span>
+                    <span class="tap">&rarr;</span>
+                    <span class="tap">A</span>
+                    <span class="tap">D</span>
+                </div>
+                <p> pres</p>
+            </div>
+            
+            <p></p>
+            <input type="button" id="close-rules" class="close-rules" value="ok">
+        </div>
+    
+        <audio id="audio" src="audio/background.mp3" preload loop></audio>
+    <audio id="winSound" src="audio/win.mp3" preload ></audio>
+    <audio id="gameOver-sound" src="audio/game-over.wav" preload ></audio>
+    </body>
+    
+        <script src="script/bundle.js"></script>
+</html>
