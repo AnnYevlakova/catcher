@@ -58,6 +58,7 @@ let levels  = {
 }
 
 function init() {
+    document.getElementById('logo').classList.add('hover');
     
     audio.play();
     terrainPattern = ctx.createPattern(get('img/terrain.png'), 'repeat');

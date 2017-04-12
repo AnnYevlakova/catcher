@@ -24,7 +24,12 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
+.heart,
+.score,
+.play-again,
+.back {
+    margin: 0px 10px;
+}
 .game-rules {
     width: 700px;
     height: auto;
@@ -44,16 +49,24 @@ body {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    width: 800px;
+    width: 100%;
     opacity: 0;
 }
 .current-level {
     width: 300px;
     color: violet;
     font-size: 1.5em;
-    margin-left: 100px;
+    margin: 0 auto;
 }
-
+.logo {
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 7em;
+    color: #def7f5;
+    text-shadow: 1px 1px 5px darkturquoise;
+    padding-left: 10px;
+    position: absolute;
+    top: 0px;
+}
 
 
 
@@ -179,6 +192,30 @@ select {
 .enemies span{
     margin: 30px 20px;
 }
+
+
+
+
+
+.curent-level {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    opacity: 1;
+}
+
+.curent-level-moove {
+    transition-duration: 6s;
+    opacity: 0;
+    top: 0px;
+}
+
+
+
+
+
 
 
 
